@@ -16,7 +16,6 @@
                 <ul>
                 <li>Add in-app auto-updates via Sparkle</li>
                 <li>show cluster connection errors on the welcome screen</li>
-                <li>initial release of KubeIt</li>
                 </ul>
             ]]></description>
             <enclosure url="https://github.com/smudham/kubeit-releases/releases/download/v0.2.0/KubeIt.zip"
