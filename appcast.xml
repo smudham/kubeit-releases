@@ -5,6 +5,25 @@
         <link>https://raw.githubusercontent.com/smudham/kubeit-releases/master/appcast.xml</link>
         <description>KubeIt auto-update feed</description>
         <language>en</language>
+        <item>
+            <title>KubeIt 0.2.0</title>
+            <pubDate>Mon, 03 Aug 2026 23:47:20 -0400</pubDate>
+            <sparkle:version>0.2.0</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                <li>Add in-app auto-updates via Sparkle</li>
+                <li>show cluster connection errors on the welcome screen</li>
+                <li>initial release of KubeIt</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/smudham/kubeit-releases/releases/download/v0.2.0/KubeIt.zip"
+                       sparkle:edSignature="9A1l2KNNLkqSdXO/mYsOBbyUzjVZGO/GRbaHgM7wk0kw2zwrYCV/8ct2rSnlcEdeskYCxJkxr+vVc7rNNXs0Bg=="
+                       length="9811485"
+                       type="application/octet-stream"/>
+        </item>
         <!-- APPCAST_ITEMS -->
     </channel>
 </rss>
