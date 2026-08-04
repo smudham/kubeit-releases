@@ -23,6 +23,23 @@
                        length="9811485"
                        type="application/octet-stream"/>
         </item>
+        <item>
+            <title>KubeIt 0.2.1</title>
+            <pubDate>Tue, 04 Aug 2026 13:36:10 -0400</pubDate>
+            <sparkle:version>0.2.1</sparkle:version>
+            <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                <li>reload cluster-scoped views when switching clusters</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/smudham/kubeit-releases/releases/download/v0.2.1/KubeIt.zip"
+                       sparkle:edSignature="Osm5pSGmHqafrp4HijfADaQYu11v5ZCmVTkIa+/Ix0cXfxLprUC02zokl5lTisOHHrnvKWIhp0QBlzEvLO9YCg=="
+                       length="9818486"
+                       type="application/octet-stream"/>
+        </item>
         <!-- APPCAST_ITEMS -->
     </channel>
 </rss>
