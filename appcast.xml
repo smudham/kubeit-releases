@@ -40,6 +40,23 @@
                        length="9818486"
                        type="application/octet-stream"/>
         </item>
+        <item>
+            <title>KubeIt 0.3.0</title>
+            <pubDate>Tue, 04 Aug 2026 22:29:41 -0400</pubDate>
+            <sparkle:version>0.3.0</sparkle:version>
+            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                <li>show node internal IP alongside pod CIDR in Nodes view</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/smudham/kubeit-releases/releases/download/v0.3.0/KubeIt.zip"
+                       sparkle:edSignature="kzWyAa9YF4Wd48agJmFl2OLXzY8FU9cwGxrtnouodzJPf9382saTV6grCXefSLl6hjjrQxnGl0ZYPpI8RP/DBQ=="
+                       length="9818971"
+                       type="application/octet-stream"/>
+        </item>
         <!-- APPCAST_ITEMS -->
     </channel>
 </rss>
