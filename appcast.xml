@@ -57,6 +57,23 @@
                        length="9818971"
                        type="application/octet-stream"/>
         </item>
+        <item>
+            <title>KubeIt 0.4.0</title>
+            <pubDate>Mon, 17 Aug 2026 14:41:06 -0400</pubDate>
+            <sparkle:version>0.4.0</sparkle:version>
+            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                <li>Add Trigger, Suspend and Resume actions for CronJobs</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/smudham/kubeit-releases/releases/download/v0.4.0/KubeIt.zip"
+                       sparkle:edSignature="RDhASR5JDpjJl0iQ5uXRDmlvJBtd8ByW25VxYb4diN36yWURlHIsTZOWtL0RxplsSi7eOjlcR9B2/n2zHAzDBQ=="
+                       length="9856151"
+                       type="application/octet-stream"/>
+        </item>
         <!-- APPCAST_ITEMS -->
     </channel>
 </rss>
