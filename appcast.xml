@@ -74,6 +74,23 @@
                        length="9856151"
                        type="application/octet-stream"/>
         </item>
+        <item>
+            <title>KubeIt 0.4.1</title>
+            <pubDate>Mon, 17 Aug 2026 16:25:30 -0400</pubDate>
+            <sparkle:version>0.4.1</sparkle:version>
+            <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                <li>find kube auth exec plugins for bash users by capturing their real login shell</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/smudham/kubeit-releases/releases/download/v0.4.1/KubeIt.zip"
+                       sparkle:edSignature="lodSJqhKxnTcgcLfCdTqmV0iq3aXZb9TiOp3+hB3uPsHTkquIz6kyqmPnLWt/2YGNw/zfzANAZAFNQY8VpbJAQ=="
+                       length="9860151"
+                       type="application/octet-stream"/>
+        </item>
         <!-- APPCAST_ITEMS -->
     </channel>
 </rss>
