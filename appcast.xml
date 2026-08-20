@@ -108,6 +108,24 @@
                        length="9860391"
                        type="application/octet-stream"/>
         </item>
+        <item>
+            <title>KubeIt 0.5.0</title>
+            <pubDate>Thu, 20 Aug 2026 16:01:28 -0400</pubDate>
+            <sparkle:version>0.5.0</sparkle:version>
+            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                <li>Update Describe and Edit YAML to work for cluster-scoped resources</li>
+                <li>Add Custom Resources browser — every CRD grouped by API group, with instance lists and the full detail panel</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/smudham/kubeit-releases/releases/download/v0.5.0/KubeIt.zip"
+                       sparkle:edSignature="MJvEMRyJjAMoXojPymHDXfQUunfCvAUFlsZdYCslhLy4nYEuQA43dyjTomSlzg5i4ZcTa7/YxcpXZ5AnSvrNCA=="
+                       length="9970245"
+                       type="application/octet-stream"/>
+        </item>
         <!-- APPCAST_ITEMS -->
     </channel>
 </rss>
