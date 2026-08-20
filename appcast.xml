@@ -91,6 +91,23 @@
                        length="9860151"
                        type="application/octet-stream"/>
         </item>
+        <item>
+            <title>KubeIt 0.4.2</title>
+            <pubDate>Thu, 20 Aug 2026 13:23:00 -0400</pubDate>
+            <sparkle:version>0.4.2</sparkle:version>
+            <sparkle:shortVersionString>0.4.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                <li>Add Job logs/pods actions, cascade deletes, and explain missing logs for podless workloads</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/smudham/kubeit-releases/releases/download/v0.4.2/KubeIt.zip"
+                       sparkle:edSignature="fDOQwm4pjJkRN5n7h32aZfs7mR5FBrc5HJPDd60bzYBclj7oqe24o5IZFi6M2wHaU5+HhVNIrBVhyN1eKG+GAg=="
+                       length="9860391"
+                       type="application/octet-stream"/>
+        </item>
         <!-- APPCAST_ITEMS -->
     </channel>
 </rss>
