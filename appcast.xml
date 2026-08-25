@@ -126,6 +126,23 @@
                        length="9970245"
                        type="application/octet-stream"/>
         </item>
+        <item>
+            <title>KubeIt 0.5.1</title>
+            <pubDate>Tue, 25 Aug 2026 10:35:20 -0400</pubDate>
+            <sparkle:version>0.5.1</sparkle:version>
+            <sparkle:shortVersionString>0.5.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                <li>Add proper scrolling to Secret and ConfigMap data values in the detail panel</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/smudham/kubeit-releases/releases/download/v0.5.1/KubeIt.zip"
+                       sparkle:edSignature="Zvdl/flBVStCTi5Xu2BzgDs15R3Ul6rER9sBvf4wrLttHJ0kge0NHS3jSg40STsaXZ+XRK8wOX50fJDcNajvAg=="
+                       length="9974840"
+                       type="application/octet-stream"/>
+        </item>
         <!-- APPCAST_ITEMS -->
     </channel>
 </rss>
