@@ -143,6 +143,26 @@
                        length="9974840"
                        type="application/octet-stream"/>
         </item>
+        <item>
+            <title>KubeIt 0.6.0</title>
+            <pubDate>Wed, 26 Aug 2026 09:22:27 -0400</pubDate>
+            <sparkle:version>0.6.0</sparkle:version>
+            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                <li>Add log history paging on scroll, "last line received" indicator, and recent-clusters quick reconnect</li>
+                <li>Improve large-cluster performance — memoized sorting, coalesced watch updates, and pre-parsed timestamps cut idle CPU from ~100% to under 10%</li>
+                <li>Add per-cluster memory — reconnects restore last namespace, resource view, sort order, and panel sizes</li>
+                <li>Update log pause/play — pausing freezes the view and resuming no longer duplicates log lines</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/smudham/kubeit-releases/releases/download/v0.6.0/KubeIt.zip"
+                       sparkle:edSignature="PIcGRco5BYHY14Av3VpexL3IkBTCvlvE/PMF3KGojkX8nhpK9tCgDXgoEwCoLPHHwA4619SDv580jN1NPG+cCw=="
+                       length="10055883"
+                       type="application/octet-stream"/>
+        </item>
         <!-- APPCAST_ITEMS -->
     </channel>
 </rss>
