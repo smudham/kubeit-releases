@@ -172,9 +172,9 @@
             <description><![CDATA[
                 <h2>What's New</h2>
                 <ul>
-                <li>prevent log history paging from firing during the initial tail load</li>
-                <li>snap resource tables to the top when the sort changes so the new order's head rows are visible</li>
-                <li>defer live watch updates while scrolling — batches apply once the gesture settles, smoothing large-cluster scrolling</li>
+                <li>Prevent log history paging from firing during the initial tail load</li>
+                <li>Snap resource tables to the top when the sort changes so the new order's head rows are visible</li>
+                <li>Defer live watch updates while scrolling — batches apply once the gesture settles, smoothing large-cluster scrolling</li>
                 </ul>
             ]]></description>
             <enclosure url="https://github.com/smudham/kubeit-releases/releases/download/v0.6.1/KubeIt.zip"
