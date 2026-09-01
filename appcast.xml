@@ -163,6 +163,25 @@
                        length="10055883"
                        type="application/octet-stream"/>
         </item>
+        <item>
+            <title>KubeIt 0.6.1</title>
+            <pubDate>Tue, 01 Sep 2026 15:06:16 -0400</pubDate>
+            <sparkle:version>0.6.1</sparkle:version>
+            <sparkle:shortVersionString>0.6.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                <li>prevent log history paging from firing during the initial tail load</li>
+                <li>snap resource tables to the top when the sort changes so the new order's head rows are visible</li>
+                <li>defer live watch updates while scrolling — batches apply once the gesture settles, smoothing large-cluster scrolling</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/smudham/kubeit-releases/releases/download/v0.6.1/KubeIt.zip"
+                       sparkle:edSignature="Yb8DJpLJx0JUfgk0tqM0DK6q4fLs2FyAzzOu8i9l77JR4kQtT2+YZbVg+fPT0Ka5DP6Pq60gezbEKBwH79J6BA=="
+                       length="10058845"
+                       type="application/octet-stream"/>
+        </item>
         <!-- APPCAST_ITEMS -->
     </channel>
 </rss>
