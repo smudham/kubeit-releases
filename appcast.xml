@@ -191,7 +191,7 @@
             <description><![CDATA[
                 <h2>What's New</h2>
                 <ul>
-                <li>send the pod terminal's real panel size to the pod TTY so editing long commands no longer overwrites text</li>
+                <li>Send the pod terminal's real panel size to the pod TTY so editing long commands no longer overwrites text</li>
                 </ul>
             ]]></description>
             <enclosure url="https://github.com/smudham/kubeit-releases/releases/download/v0.6.2/KubeIt.zip"
