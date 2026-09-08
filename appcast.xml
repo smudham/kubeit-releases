@@ -182,6 +182,23 @@
                        length="10058845"
                        type="application/octet-stream"/>
         </item>
+        <item>
+            <title>KubeIt 0.6.2</title>
+            <pubDate>Tue, 08 Sep 2026 14:39:45 -0400</pubDate>
+            <sparkle:version>0.6.2</sparkle:version>
+            <sparkle:shortVersionString>0.6.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                <li>send the pod terminal's real panel size to the pod TTY so editing long commands no longer overwrites text</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/smudham/kubeit-releases/releases/download/v0.6.2/KubeIt.zip"
+                       sparkle:edSignature="0/HAvmVH2A83cJ9tKcSlDr0NLu98PkJ36Cde6SkfzkLrXkO+t7MmCdQ9DO1Z1lLwwB+Dh8tm5rgxtivdlA7mCQ=="
+                       length="10059014"
+                       type="application/octet-stream"/>
+        </item>
         <!-- APPCAST_ITEMS -->
     </channel>
 </rss>
