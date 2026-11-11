@@ -228,6 +228,92 @@
                        length="9820128"
                        type="application/octet-stream"/>
         </item>
+        <item>
+            <title>KubeIt 0.7.1</title>
+            <pubDate>Tue, 10 Nov 2026 22:28:45 -0500</pubDate>
+            <sparkle:version>0.7.1</sparkle:version>
+            <sparkle:shortVersionString>0.7.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                <li>Load the first resource list after connecting without downloading it twice, and stop re-listing kinds that have no objects</li>
+                <li>Show Pods lists only the pods the workload owns, with a chip to clear the scope</li>
+                <li>Report a failed Secret or ConfigMap save and keep the edits, list only a workload's own pods, refresh details after suspend, restart or scale, and mark OOM-killed and debug containers</li>
+                <li>Show a Ready column for pods, color partly ready rows, and show the status of Jobs including Suspended</li>
+                <li>Stop a slow regular expression in the list filter from freezing the window</li>
+                <li>Show the selected cluster's workloads in XRay after a cluster switch, and never a tree or events from the previous selection</li>
+                <li>Keep rows of the previous kind or namespace out of the list when you switch while it is still loading</li>
+                <li>Compute a CronJob's next execution in UTC like the cluster does, accept @daily and MON-FRI style schedules, and stop yearly schedules stalling the window</li>
+                <li>Record a cluster's context on the main thread when connecting and disconnecting</li>
+                <li>Helm releases reload when you switch clusters instead of showing the previous cluster's list</li>
+                <li>The detail panel closes when its resource is deleted or its tab is closed</li>
+                <li>Connecting a cluster adds it once, and other clusters cannot be clicked while a connect is running</li>
+                <li>Pod terminals stay connected when you switch to another cluster and back</li>
+                <li>Command palette commands (:pod, :ns, :ctx, :help) work, and picking a result opens it from any view</li>
+                <li>Downloading logs reports a failed save and includes lines received while paused</li>
+                <li>Loading older log history no longer repeats lines when the log itself is repetitive</li>
+                <li>Turning off resource names in merged logs also works while timestamps are shown</li>
+                <li>Log lines are shown exactly as written, so search counts and highlights always agree</li>
+                <li>Searching logs no longer crashes when a burst of lines larger than the buffer arrives</li>
+                <li>Resuming paused logs after the pod ended shows the buffered final lines instead of dropping them</li>
+                <li>Workload logs include only the pods the workload owns, not every pod whose name starts the same</li>
+                <li>Log tabs are separate per namespace and cluster, and a reopened workload tab follows its current pods</li>
+                <li>Edit YAML loads the live object, keeps unsaved edits across tab switches, and asks before overwriting a change made on the cluster</li>
+                <li>Prefill the Scale dialog with the desired replica count and reject invalid input</li>
+                <li>Clear a cluster's tables when a load fails or the cluster changes, so data of the previous cluster never stays on screen</li>
+                <li>Keep the workload metrics chart updating after a rollout replaces its pods</li>
+                <li>Select the pod clicked in the Nodes view when it lives in another namespace</li>
+                <li>Check access in the selected namespace, and tell apart denied from could not check in the Access Matrix</li>
+                <li>Keep the cluster list on screen when a connect fails in Add Cluster</li>
+                <li>Never list the same cluster twice, and clear a cluster's port-forwards, log tabs and terminals when it disconnects</li>
+                <li>Keep added kubeconfig files and Max log lines across restarts, show the real read-only state, and remove Preferences that did nothing</li>
+                <li>Count NotReady nodes and evicted or terminating pods correctly on the cluster overview, and show recent events from every namespace</li>
+                <li>Stop listing scaled-to-zero workloads, old ReplicaSets, completed pods and suspended Jobs under Needs Attention</li>
+                <li>Reject port-forward ports outside 1-65535 instead of crashing, and show each forward's real status</li>
+                <li>Announce pod restarts only for the cluster on screen, always name the cluster, and stay quiet about pods that are already crash-looping</li>
+                <li>Add app-side calls for namespace-scoped access checks, owned pods and extra kubeconfig files</li>
+                <li>Watch PersistentVolumeClaims from connect and list a workload's pods by owner</li>
+                <li>One failed port-forward connection no longer shows the whole forward as broken</li>
+                <li>Port-forward traffic counters update while a connection is open</li>
+                <li>Disconnecting a cluster now stops its port-forwards, log streams and terminal sessions</li>
+                <li>A log line with invalid UTF-8 no longer ends a live log stream</li>
+                <li>Resizing a terminal whose shell just exited no longer freezes the app</li>
+                <li>List the pods of a workload by owner reference so similarly named workloads are not mixed up</li>
+                <li>Report a Service only when no pod in its namespace matches its selector</li>
+                <li>Measure resource age when diagnostics run so pods, claims and workloads that stop changing are still reported as stuck</li>
+                <li>Keep reporting an out-of-memory kill after the container has restarted</li>
+                <li>Leave debug containers out of pod readiness so a pod is not flagged as not ready after kubectl debug</li>
+                <li>Count native sidecar containers in pod readiness and restarts, and show 0/N for pods that are not scheduled yet</li>
+                <li>Link a resource to the owner that controls it rather than the first owner listed</li>
+                <li>Report a Job as complete or failed from its conditions, so a Job with completions still to run reads as running</li>
+                <li>Show the phase of PersistentVolumeClaims so a claim stuck in Pending is reported</li>
+                <li>Show DaemonSet readiness from its ready and desired pod counts instead of 0/0</li>
+                <li>Refresh a resource list only when its own kind resyncs, not on every kind's resync</li>
+                <li>Keep cached resources that another watch still covers when a watch stops, and restart a watch whose task has ended</li>
+                <li>Check access in the selected namespace and show failed access checks separately from denials</li>
+                <li>Return an empty list instead of an error when a namespace has no pod metrics</li>
+                <li>Keep pods with a container that has no usage sample, sum CPU without losing sub-millicore precision, and read every memory quantity form</li>
+                <li>Match only the selected node or deployment in Prometheus metric queries</li>
+                <li>Back off between retries when a resource watch keeps failing instead of re-listing in a tight loop</li>
+                <li>Reject a negative replica count and keep pod metric totals from overflowing</li>
+                <li>Run a CronJob manually twice in the same second without a name conflict</li>
+                <li>Show images with an unusual digest in the image inventory instead of crashing</li>
+                <li>Count only new pod restarts in the Pulses restart chart</li>
+                <li>Restart, scale and patch cluster-scoped resources instead of failing with not found</li>
+                <li>Leave read-only mode unchanged when saving the setting fails</li>
+                <li>Keep read-only mode and other settings when the settings file is damaged, and save settings atomically</li>
+                <li>Connect to every context that is listed, including ones from ~/.kube/config when KUBECONFIG is set and from extra kubeconfig files</li>
+                <li>List contexts from the readable kubeconfig files when one file is broken</li>
+                <li>Connect each context only once when two connects for it race</li>
+                <li>Stop one slow or hung cluster request from freezing every other cluster and deadlocking pod metrics</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/smudham/kubeit-releases/releases/download/v0.7.1/KubeIt.zip"
+                       sparkle:edSignature="BlQ2UWuY3+MAP3GMBf15q7KAkIIGB5PIgeD87mA79yicwhj2FXmffZp7c3y4xr/+RiUBeM1zt9pvDgPZzDyrAQ=="
+                       length="10105542"
+                       type="application/octet-stream"/>
+        </item>
         <!-- APPCAST_ITEMS -->
     </channel>
 </rss>
