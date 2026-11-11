@@ -314,6 +314,24 @@
                        length="10105542"
                        type="application/octet-stream"/>
         </item>
+        <item>
+            <title>KubeIt 0.7.2</title>
+            <pubDate>Wed, 11 Nov 2026 11:09:37 -0500</pubDate>
+            <sparkle:version>0.7.2</sparkle:version>
+            <sparkle:shortVersionString>0.7.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                <li>Find kubeconfig login helpers such as oci when the app starts on a busy Mac, without needing a restart</li>
+                <li>Show a banner when a Deployment, StatefulSet or DaemonSet in the cluster on screen is restarted, naming the workload and the cluster</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/smudham/kubeit-releases/releases/download/v0.7.2/KubeIt.zip"
+                       sparkle:edSignature="byQKd4hbaZ/BDeezCWd0dmRxY8Re+io/La7ff3unwuDndo7fFNlqGxAyBzUPacJKyLuGmSjVGezJHDtEoC4yDg=="
+                       length="10123849"
+                       type="application/octet-stream"/>
+        </item>
         <!-- APPCAST_ITEMS -->
     </channel>
 </rss>
