@@ -199,6 +199,35 @@
                        length="10059014"
                        type="application/octet-stream"/>
         </item>
+        <item>
+            <title>KubeIt 0.7.0</title>
+            <pubDate>Tue, 10 Nov 2026 19:01:24 -0500</pubDate>
+            <sparkle:version>0.7.0</sparkle:version>
+            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <ul>
+                <li>Name the cluster in pod restart banners, quiet crash-looping pods for 5 minutes, and keep error banners visible</li>
+                <li>Announce every pod restart once, including init and sidecar containers and restarts during a resync or while live updates are paused</li>
+                <li>Keep live updates from staying paused on a list after switching to another kind or cluster</li>
+                <li>Apply the saved sort the first time a resource list opens after a reconnect or restart</li>
+                <li>Sort the pod CPU and Memory columns by value instead of by their display text</li>
+                <li>Keep log text in its original order when the level word is not at the start of the message</li>
+                <li>Use the first level keyword in a log line so INFO lines that mention "error" are no longer shown as errors</li>
+                <li>Show pod CPU of 1 core or more without the "cores" unit so the CPU column reads consistently</li>
+                <li>Add restart notifications with a confirmation when a restart is triggered and a banner when a pod restarts</li>
+                <li>Add favorites for clusters so starred connections sort first on the Welcome screen and in the cluster pickers</li>
+                <li>Add alphabetical ordering for env vars, selectors, and resource requests and limits in the detail panel</li>
+                <li>Add regex search to every list filter via a toggle next to the search box</li>
+                <li>Update the YAML editor to keep indentation on Return, insert spaces for Tab, and stop autocorrect from altering YAML</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/smudham/kubeit-releases/releases/download/v0.7.0/KubeIt.zip"
+                       sparkle:edSignature="kXzScL3NPzQ6+uqUQx8bnK65XKdqfz/mvTQGYLThYlegkOGENFPAks33g1pozm9qp1bWzyLHtQYxu2TlDHqRCA=="
+                       length="9820128"
+                       type="application/octet-stream"/>
+        </item>
         <!-- APPCAST_ITEMS -->
     </channel>
 </rss>
